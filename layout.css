@@ -1,0 +1,180 @@
+/* Navigation */
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* projektmenu */
+.projektmenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.overskrift_projektmenu {
+  display: flex;
+  justify-content: center;
+}
+
+/* UX */
+.pink_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.inspiration {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#styletile {
+  grid-column: 2 span;
+}
+
+/* Animation */
+.overskrift_animation_p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.spilelementer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#proces_animation_p {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#prototype_animation_p {
+  grid-column: 2 span;
+}
+
+@media (min-width: 800px) {
+  /* Navigation */
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  /* projektmenu */
+  .projektmenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .overskrift_projektmenu {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Website */
+  .green_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .overskrift_web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Emnesite */
+
+  .yellow_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #proces_emnesite_p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #styletile_emnesite {
+    grid-column: 2 span;
+  }
+
+  /* MomB */
+  .pink_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .inspiration {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #styletile {
+    grid-column: 2 span;
+  }
+
+  /* Pitch */
+  .brown_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .overskrift_pitch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Animation */
+  .overskrift_animation_p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .spilelementer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .blue_box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #proces_animation_p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #prototype_animation_p {
+    grid-column: 2 span;
+  }
+
+  /* Pilotsite */
+  .turkish_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #proces_pilotsite_p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #volleybillede_pilotsite {
+    grid-column: 2 span;
+  }
+  /* Redesign */
+  .dgreen_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #proces_redesign_p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #showroom_redesign {
+    grid-column: 2 span;
+  }
+
+  /* Portfolio */
+  .purple_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #proces_portfolio_p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #prototyper_portfolio {
+    grid-column: 2 span;
+  }
+}

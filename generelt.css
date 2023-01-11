@@ -1,0 +1,1791 @@
+@font-face {
+  font-family: queensides-reg;
+  src: url(font/Queensides-3z7Ey.ttf);
+}
+@font-face {
+  font-family: poiret;
+  src: url(font/PoiretOne-Regular.ttf);
+}
+@font-face {
+  font-family: forum;
+  src: url(font/Forum-RdrM.ttf);
+}
+@font-face {
+  font-family: source-reg;
+  src: url(font/SourceSerifProRegular-zOZw.ttf);
+}
+@font-face {
+  font-family: source-semibold;
+  src: url(font/SourceSerifProSemiboldRegular-5xAZ.ttf);
+}
+
+@font-face {
+  font-family: bodonif-bold;
+  src: url(font/BodoniflfBold-MVZx.ttf);
+}
+@font-face {
+  font-family: bodonif-skrå;
+  src: url(font/BodoniflfItalic-2OEw.ttf);
+}
+@font-face {
+  font-family: bodonif-fin;
+  src: url(font/BodoniflfRoman-vmAD.ttf);
+}
+@font-face {
+  font-family: playfair-i;
+  src: url(font/PlayfairDisplayItalic-BW0Rd.ttf);
+}
+@font-face {
+  font-family: playfair-fed-i;
+  src: url(font/PlayfairDisplayExtraboldItalic-MVZaJ.ttf);
+}
+@font-face {
+  font-family: playfair-reg;
+  src: url(font/PlayfairDisplayRegular-ywLOY.ttf);
+}
+@font-face {
+  font-family: vonique;
+  src: url(font/Vonique43-2AAo.ttf);
+}
+@font-face {
+  font-family: amigh;
+  src: url(font/AmighRegular-z80Da.otf);
+}
+
+body {
+  /* background-color: #4f4436; */
+  background-color: #e0d8d0;
+  margin: 0%;
+  padding: 0%;
+}
+img {
+  max-width: 100%;
+}
+
+/************************* Global Nav  *************************/
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+a {
+  text-decoration: none;
+  font-family: vonique;
+  font-size: 2vw;
+  scale: 87%;
+  width: 50%;
+  color: black;
+}
+nav {
+  margin: 1em 0 0 7em;
+}
+
+nav > a:hover {
+  color: #99b99c;
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out;
+}
+nav > a:link {
+  color: black;
+}
+.luk {
+  width: 50%;
+  margin-left: 10em;
+}
+
+/************************* Vertikal linje *************************/
+.line {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 165%;
+  position: absolute;
+  left: 50%;
+  top: 13%;
+  z-index: -1;
+}
+/************************* Forside *************************/
+.forside_b {
+  background-image: url(portfolio_materiale/forside.png);
+  background-size: cover;
+  aspect-ratio: 3360/1988;
+  position: relative;
+}
+
+.forside_knap_p {
+  background-image: url(portfolio_materiale/forside/forside_knap_p.svg);
+  background-size: cover;
+  aspect-ratio: 602/108;
+  width: 20%;
+  position: absolute;
+  top: 48%;
+  left: 70%;
+}
+.forside_knap_o {
+  background-image: url(portfolio_materiale/forside/forside_knap_o_gron.svg);
+  background-size: cover;
+  aspect-ratio: 603/108;
+  width: 20%;
+  position: absolute;
+  top: 56%;
+  left: 65%;
+}
+
+.knapper_forside a:hover {
+  transform: scale(1.06);
+  transition: transform 0.2s ease-in-out;
+}
+#line_knapo_v {
+  border-left: 1px solid gray;
+  opacity: 85%;
+  height: 10%;
+  position: absolute;
+  left: 90%;
+  top: 45%;
+  z-index: 1;
+}
+#line_knapo_h {
+  border-left: 1px solid gray;
+  transform: rotate(90deg);
+  opacity: 85%;
+  height: 25%;
+  position: absolute;
+  left: 85%;
+  top: 34%;
+  z-index: 1;
+}
+#line_knapp_v {
+  border-left: 1px solid gray;
+  opacity: 85%;
+  height: 9%;
+  position: absolute;
+  left: 65%;
+  top: 56%;
+  z-index: 1;
+}
+#line_knapp_h {
+  border-left: 1px solid gray;
+  transform: rotate(90deg);
+  opacity: 85%;
+  height: 30%;
+  position: absolute;
+  left: 76%;
+  top: 50%;
+  z-index: 1;
+}
+
+#line_mg_h {
+  border-left: 1px solid gray;
+  transform: rotate(90deg);
+  opacity: 85%;
+  height: 30%;
+  position: absolute;
+  left: 10%;
+  top: -2%;
+  z-index: 1;
+}
+#line_mg_v {
+  border-left: 1px solid gray;
+  opacity: 80%;
+  height: 40%;
+  position: absolute;
+  left: 3%;
+  top: 10%;
+  z-index: 1;
+}
+
+#line_br_h {
+  border-left: 1px solid gray;
+  transform: rotate(90deg);
+  opacity: 90%;
+  height: 17%;
+  position: absolute;
+  left: 27%;
+  top: 62%;
+  z-index: 1;
+}
+
+#line_br_v {
+  border-left: 1px solid gray;
+  opacity: 90%;
+  height: 13%;
+  position: absolute;
+  left: 30%;
+  top: 56%;
+  z-index: 1;
+}
+
+#line_gr_l {
+  border-left: 1px solid gray;
+  transform: rotate(90deg);
+  opacity: 80%;
+  height: 17%;
+  position: absolute;
+  left: 49.5%;
+  top: 14%;
+  z-index: 1;
+}
+
+#line_gr_k {
+  border-left: 1px solid gray;
+  transform: rotate(90deg);
+  opacity: 80%;
+  height: 10%;
+  position: absolute;
+  left: 49.5%;
+  top: 19%;
+  z-index: 1;
+}
+
+/************************* Produktmenu *************************/
+.overskrift_projektmenu h1 {
+  font-family: poiret;
+  font-size: 140%;
+}
+/************************* Website *************************/
+.website {
+  width: 50vw;
+  margin-left: 13%;
+}
+.grønbox {
+  width: 20vw;
+  height: 20vh;
+  background-color: #c5fdda;
+  opacity: 60%;
+  position: absolute;
+  z-index: -1;
+  left: 3%;
+  top: 12%;
+}
+
+.website_info h2 {
+  font-size: 3.5vw;
+  margin-left: 27%;
+  margin-top: 10%;
+  font-family: forum;
+}
+.website_info h3 {
+  font-size: 3vw;
+  margin-left: 47.6%;
+  font-family: poiret;
+}
+
+.lineweb {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 12%;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  z-index: -1;
+}
+
+/************************* Emnesite *************************/
+.emnesite {
+  width: 50vw;
+  margin-left: -15%;
+  margin-top: 17.5%;
+}
+.brunbox {
+  width: 20vw;
+  height: 20vh;
+  background-color: #b05e07;
+  opacity: 39%;
+  position: absolute;
+  z-index: -1;
+  right: 3%;
+  top: 33%;
+}
+.emnesite_info h2 {
+  font-size: 3.5vw;
+  margin-top: 30%;
+  margin-left: 15%;
+  font-family: forum;
+}
+.emnesite_info h3 {
+  font-size: 3vw;
+  margin-left: 32%;
+  font-family: poiret;
+}
+
+.emnesite_knap {
+  background-image: url(las_mere_beige.svg);
+  background-size: cover;
+  width: 15%;
+  aspect-ratio: 444/161;
+  margin-left: 40%;
+}
+.lineemne {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 12%;
+  position: absolute;
+  left: 40%;
+  top: 36.5%;
+  z-index: -1;
+}
+/************************* T-shirt *************************/
+.t-shirt {
+  width: 50vw;
+  margin-left: 13%;
+  margin-top: 17%;
+}
+.pinkbox {
+  width: 20vw;
+  height: 20vh;
+  background-color: #ffd1d1;
+  opacity: 90%;
+  position: absolute;
+  z-index: -1;
+  left: 3%;
+  top: 54%;
+}
+.t-shirt_info h2 {
+  font-size: 3.5vw;
+  margin-left: 28%;
+  margin-top: 30%;
+  font-family: forum;
+}
+.t-shirt_info h3 {
+  font-size: 3vw;
+  margin-left: 40%;
+  font-family: poiret;
+}
+.momb_knap {
+  background-image: url(lasmere_t-shirt.svg);
+  background-size: cover;
+  width: 15%;
+  aspect-ratio: 433/151;
+  margin-left: 50%;
+}
+.linet {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 12%;
+  position: absolute;
+  left: 60%;
+  top: 58%;
+  z-index: -1;
+}
+/************************* Pitch *************************/
+.pitch {
+  width: 50vw;
+  margin-left: -15%;
+  margin-top: 17%;
+}
+.beigebox {
+  width: 20vw;
+  height: 20vh;
+  background-color: #8a5a52;
+  opacity: 50%;
+  position: absolute;
+  z-index: -1;
+  right: 3%;
+  top: 75%;
+}
+.pitch_info h2 {
+  font-size: 3.5vw;
+  margin-top: 30%;
+  margin-left: 15%;
+  font-family: forum;
+}
+.pitch_info h3 {
+  font-size: 3vw;
+  margin-left: 32%;
+  font-family: poiret;
+}
+.linepitch {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 12%;
+  position: absolute;
+  left: 40%;
+}
+
+/************************* Spil *************************/
+.spil {
+  width: 50vw;
+  margin-left: 13%;
+  margin-top: 16%;
+}
+.bluebox {
+  width: 20vw;
+  height: 20vh;
+  background-color: #bbe3fc;
+  position: absolute;
+  z-index: -1;
+  left: 3%;
+  top: 96.25%;
+}
+.spil_info h2 {
+  font-size: 3.5vw;
+  margin-left: 16%;
+  margin-top: 30%;
+  font-family: forum;
+}
+.spil_info h3 {
+  font-size: 3vw;
+  margin-left: 27%;
+  font-family: poiret;
+}
+.pcc_knap {
+  background-image: url(lasmere_spil.svg);
+  background-size: cover;
+  width: 15%;
+  aspect-ratio: 433/151;
+  margin-left: 48%;
+}
+.linespil {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 12%;
+  position: absolute;
+  left: 57.5%;
+  top: 100.5%;
+  z-index: -1;
+}
+/************************* Pilotsite *************************/
+.pilotsite {
+  width: 50vw;
+  margin-left: -15%;
+  margin-top: 17%;
+}
+.turkisbox {
+  width: 20vw;
+  height: 20vh;
+  background-color: #bbfcfc;
+  opacity: 50%;
+  position: absolute;
+  z-index: -1;
+  right: 3%;
+  top: 117.5%;
+}
+.pilotsite_info h2 {
+  font-size: 3.5vw;
+  margin-top: 30%;
+  margin-left: 8%;
+  font-family: forum;
+}
+.pilotsite_info h3 {
+  font-size: 3vw;
+  margin-left: 20%;
+  font-family: poiret;
+}
+
+.volley_knap {
+  background-image: url(lasmere_pilot.svg);
+  background-size: cover;
+  width: 15%;
+  aspect-ratio: 444/161;
+  margin-left: 37%;
+}
+.linepilot {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 12%;
+  position: absolute;
+  left: 41%;
+  top: 120.5%;
+  z-index: -1;
+}
+
+/************************* Redesign *************************/
+.redesign {
+  width: 50vw;
+  margin-left: 13%;
+  margin-top: 16%;
+}
+.darkgbox {
+  width: 20vw;
+  height: 20vh;
+  background-color: #8aa18b;
+  opacity: 70%;
+  position: absolute;
+  z-index: -1;
+  left: 3%;
+  top: 136.5%;
+}
+.redesign_info h2 {
+  font-size: 3.5vw;
+  margin-left: 20%;
+  margin-top: 30%;
+  font-family: forum;
+}
+.redesign_info h3 {
+  font-size: 3vw;
+  margin-left: 31%;
+  font-family: poiret;
+}
+
+.keramik_knap {
+  background-image: url(lasmere_keramik.svg);
+  background-size: cover;
+  width: 15%;
+  aspect-ratio: 444/161;
+  margin-left: 50%;
+}
+.lineredesign {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 12%;
+  position: absolute;
+  left: 58.5%;
+  top: 141%;
+  z-index: -1;
+}
+
+/************************* Portfolio *************************/
+.portfolio {
+  width: 50vw;
+  margin-left: -15%;
+  margin-top: 17%;
+}
+.lillabox {
+  width: 20vw;
+  height: 20vh;
+  background-color: #fae0c5;
+  opacity: 80%;
+  position: absolute;
+  z-index: -1;
+  right: 3%;
+  top: 158%;
+  margin-bottom: 5em;
+}
+.portfolio_info h2 {
+  font-size: 3.5vw;
+  margin-top: 30%;
+  margin-left: 25%;
+  font-family: forum;
+}
+.portfolio_info h3 {
+  font-size: 3vw;
+  margin-left: 27%;
+  font-family: poiret;
+}
+
+.portfolio_knap {
+  background-image: url(lasmere_pilot.svg);
+  background-size: cover;
+  width: 15%;
+  aspect-ratio: 444/161;
+  margin-left: 37%;
+}
+.lineportfolio {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 12%;
+  position: absolute;
+  right: 60%;
+  top: 162%;
+  z-index: -1;
+}
+
+/************************************************************************* mobil sites *************************************************************************/
+
+/************************* Website mobil *************************/
+.green_box {
+  background-color: rgba(136, 173, 117, 0.251);
+  padding: 2em;
+  margin: 1em 2em 3em 2em;
+}
+
+.overskrift_web h1 {
+  font-size: 4vw;
+  font-family: forum;
+}
+.overskrift_web h2 {
+  font-size: 3vw;
+  font-family: poiret;
+}
+.overskrift_web a {
+  font-size: 2.5vw;
+}
+.green_box p {
+  max-width: 65vw;
+  margin: 0.5em;
+  font-family: source-reg;
+}
+.line_website_p_showroom {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 95%;
+  position: absolute;
+  left: 91%;
+  top: 17%;
+  z-index: -1;
+}
+#link_website {
+  font-family: queensides-reg;
+}
+
+/************************* Emnesite mobil *************************/
+
+.yellow_box {
+  background-color: rgba(222, 170, 47, 0.257);
+  padding: 2em;
+  margin: 1em 2em 3em 2em;
+}
+.overskrift_emnesite_p h1 {
+  font-size: 4vw;
+  font-family: forum;
+}
+.overskrift_emnesite_p h2 {
+  font-size: 3vw;
+  font-family: poiret;
+}
+.overskrift_emnesite_p a {
+  font-size: 2.5vw;
+}
+
+.yellow_box p {
+  max-width: 65vw;
+  margin: 0.5em;
+}
+
+#wireframe_emnesite {
+  width: 70%;
+  padding: 2em 0 0 3em;
+}
+
+#moodboard_emnesite {
+  width: 70%;
+  padding-left: 3em;
+}
+
+.tekst_emnesite_p {
+  max-width: 60vw;
+  margin: 3em;
+}
+
+#prototype_emnesite_p {
+  width: 100%;
+  padding: 4em 4em 0 0;
+}
+.line_emnesite_p_showroom {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 95%;
+  position: absolute;
+  left: 51%;
+  top: 20%;
+  z-index: -1;
+}
+#link_emnesite {
+  font-family: queensides-reg;
+}
+
+/************************* MomB mobil *************************/
+
+.pink_box {
+  background-color: rgba(251, 222, 227, 0.657);
+  padding: 2em 2em 38em 2em;
+  margin: 1em 2em 3em 2em;
+}
+.overskrift_ux h1 {
+  font-size: 4vw;
+  font-family: forum;
+}
+.overskrift_ux h2 {
+  font-size: 3vw;
+  font-family: poiret;
+}
+.overskrift_ux a {
+  font-size: 2.5vw;
+}
+
+#inspo {
+  width: 140%;
+  margin: 1em 1em 0 0;
+  padding: 1em;
+}
+#moodboard {
+  width: 190%;
+}
+
+#styletile {
+  width: 120%;
+  padding-left: 2em;
+}
+
+.tekst {
+  max-width: 60vw;
+  margin: 3em;
+  position: absolute;
+  left: 10%;
+  top: 70%;
+}
+
+#ideudvikling {
+  width: 80%;
+  padding: 2em;
+}
+.line_momB_showroom {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 95%;
+  position: absolute;
+  left: 51%;
+  top: 20%;
+  z-index: -1;
+}
+#link_momb {
+  font-family: queensides-reg;
+}
+
+/************************* Pitch mobil *************************/
+.brown_box {
+  background-color: #8a5a5289;
+  padding: 2em;
+  margin: 1em 2em 3em 2em;
+}
+
+.overskrift_pitch h1 {
+  font-size: 4vw;
+  font-family: forum;
+}
+.overskrift_pitch h2 {
+  font-size: 3vw;
+  font-family: poiret;
+}
+.overskrift_pitch a {
+  font-size: 2.5vw;
+}
+.brown_box p {
+  max-width: 65vw;
+  padding: 2em 1em 2em 1em;
+}
+.brown_box img {
+  width: 80%;
+  padding-left: 2em;
+}
+.line_pitch_p_showroom {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 95%;
+  position: absolute;
+  left: 85%;
+  top: 17%;
+  z-index: -1;
+}
+#link_pitch {
+  font-family: queensides-reg;
+}
+/************************* Animation mobil *************************/
+.blue_box1 {
+  background-color: rgba(0, 89, 255, 0.252);
+  padding: 2em;
+  margin: 1em 2em 0 2em;
+}
+.blue_box2 {
+  background-color: rgba(0, 89, 255, 0.252);
+  padding: 1em;
+  margin: 0 2em 3em 2em;
+}
+#link_animation {
+  margin-left: 28em;
+}
+
+.overskrift_animation_p h1 {
+  font-size: 4vw;
+  font-family: forum;
+}
+.overskrift_animation_p h2 {
+  font-size: 3vw;
+  padding-left: 2.5em;
+  font-family: poiret;
+}
+.overskrift_animation_p a {
+  font-size: 2.5vw;
+  margin-right: 27em;
+  margin-bottom: 2em;
+}
+
+.first_kolonne h2 {
+  font-size: 1em;
+}
+.spilelementer {
+  gap: 1em;
+  width: 20%;
+  margin-left: 45%;
+}
+
+#moodboard_animation {
+  width: 110%;
+}
+
+#papirprototype_animation {
+  width: 100%;
+}
+
+.tekst_animation_p {
+  max-width: 60vw;
+  margin: 3em 0 3em 3em;
+}
+
+.line_animation_p_showroom {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 95%;
+  position: absolute;
+  left: 51%;
+  top: 20%;
+  z-index: -1;
+}
+#link_animation {
+  font-family: queensides-reg;
+}
+
+/************************** Pilotsite mobil **************************/
+.turkish_box {
+  background-color: rgba(241, 227, 194, 0.772);
+  padding: 2em;
+  margin: 1em 2em 3em 2em;
+}
+.overskrift_volley_p h1 {
+  font-size: 4vw;
+  font-family: forum;
+}
+.overskrift_volley_p h2 {
+  font-size: 3vw;
+  font-family: poiret;
+}
+.overskrift_volley_p a {
+  font-size: 2vw;
+}
+
+#mindmap_pilotsite h3 {
+  font-size: 3vw;
+
+  position: absolute;
+  left: 35%;
+  top: 19%;
+}
+#mindmap_pilotsite {
+  width: 60%;
+  margin: 0 0 0 4em;
+  padding-right: 3em;
+}
+
+.tekst_pilotsite_p {
+  max-width: 60vw;
+  margin: 3em;
+}
+
+#videoredigering_pilotsite {
+  width: 110%;
+  margin-top: 3em;
+}
+#videoredigering_pilotsite h3 {
+  font-size: 3vw;
+}
+.line_pilotsite_p_showroom {
+  border-left: 1px solid gray;
+  opacity: 100%;
+  height: 95%;
+  position: absolute;
+  left: 51%;
+  top: 20%;
+  z-index: -1;
+}
+#link_pilotsite {
+  font-family: queensides-reg;
+}
+
+/************************** Redesign mobil **************************/
+.dgreen_box {
+  background-color: #8aa18bd5;
+  padding: 2em;
+  margin: 1em 2em 3em 2em;
+}
+.overskrift_redesign_p h1 {
+  font-size: 4vw;
+  font-family: forum;
+}
+.overskrift_redesign_p h2 {
+  font-size: 3vw;
+  font-family: poiret;
+}
+.overskrift_redesign_p a {
+  font-size: 2vw;
+}
+
+#moodboard1_redesign {
+  width: 100%;
+  margin-top: 4em;
+}
+
+#moodboard2_redesign {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.tekst_redesign_p {
+  max-width: 60vw;
+  margin: 5em 3em 0 1em;
+}
+
+#bert_redesign_p {
+  width: 120%;
+  margin: 0em 5em 0 0;
+}
+.line_redesign_p_showroom {
+  border-left: 1px solid gray;
+  opacity: 40%;
+  height: 95%;
+  position: absolute;
+  left: 51%;
+  top: 35%;
+  z-index: -1;
+}
+#link_redesign {
+  font-family: queensides-reg;
+}
+/************************** Portfolio mobil **************************/
+.purple_box {
+  background-color: #fae0c5b5;
+  padding: 2em;
+  margin: 1em 2em 3em 2em;
+}
+.overskrift_portfolio_p {
+  font-family: forum;
+}
+
+#moodboard_portfolio {
+  width: 100%;
+}
+#styletile_portfolio {
+  width: 100%;
+}
+.tekst_portfolio_p {
+  max-width: 60vw;
+  padding: 5em 0 0 0;
+}
+.tekst_portfolio_p p {
+  max-width: 60vw;
+  padding: 2em 0 0 4em;
+}
+
+#mockup_portfolio_p {
+  width: 120%;
+  padding: 4em 5em 1em 0;
+}
+.line_portfolio_p_showroom {
+  border-left: 1px solid gray;
+  opacity: 100%;
+  height: 190%;
+  position: absolute;
+  left: 88%;
+  top: 13%;
+  z-index: -1;
+}
+
+.cv {
+  background-image: url(CV_mobil.svg);
+  background-size: cover;
+  aspect-ratio: 393/726;
+}
+
+/************************************************************************  Website størrelse *************************************************************************/
+@media (min-width: 800px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: vonique;
+    font-size: 2vw;
+    scale: 80%;
+    width: 50%;
+    color: black;
+  }
+  nav {
+    margin: 2em 0 0 25em;
+  }
+
+  nav > a:hover {
+    color: #99b99c;
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+  }
+  nav > a:link {
+    color: black;
+  }
+
+  .luk {
+    width: 110%;
+    margin-left: 40em;
+  }
+  /* Projektmenu */
+  .projektmenu {
+    margin: 2em 4em 6em 4em;
+    gap: 4em;
+  }
+  .line {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 400%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    z-index: -1;
+  }
+
+  /************************* Produktmenu *************************/
+  .overskrift_projektmenu h1 {
+    font-family: poiret;
+    font-size: 300%;
+  }
+  /************************* Website website format *************************/
+  .website {
+    width: 30vw;
+    margin-left: 5%;
+  }
+  .grønbox {
+    width: 15vw;
+    height: 40vh;
+    background-color: #c5fdda;
+    opacity: 60%;
+    position: absolute;
+    z-index: -1;
+    left: 3%;
+    top: 30%;
+  }
+
+  .website_info h2 {
+    font-size: 3vw;
+    margin-left: 35%;
+    margin-top: 2%;
+    font-family: forum;
+  }
+  .website_info h3 {
+    font-size: 2vw;
+    margin-left: 60%;
+    font-family: poiret;
+  }
+
+  .lineweb {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 20%;
+    position: absolute;
+    left: 60%;
+    top: 38%;
+    z-index: -1;
+  }
+
+  /************************* Emnesite website format*************************/
+  .emnesite {
+    width: 30vw;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+  .brunbox {
+    width: 15vw;
+    height: 40vh;
+    background-color: #b05e07;
+    opacity: 39%;
+    position: absolute;
+    z-index: -1;
+    right: 3%;
+    top: 76%;
+  }
+  .emnesite_info h2 {
+    font-size: 3vw;
+    margin-top: 15%;
+    margin-left: 15%;
+    font-family: forum;
+  }
+  .emnesite_info h3 {
+    font-size: 2vw;
+    margin-left: 32%;
+    font-family: poiret;
+  }
+
+  .lineemne {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 20%;
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    z-index: -1;
+  }
+  /************************* T-shirt website format*************************/
+  .t-shirt {
+    width: 30vw;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  .pinkbox {
+    width: 15vw;
+    height: 40vh;
+    background-color: #ffd1d1;
+    opacity: 90%;
+    position: absolute;
+    z-index: -1;
+    left: 3%;
+    top: 128%;
+  }
+  .t-shirt_info h2 {
+    font-size: 3vw;
+    margin-left: 35%;
+    margin-top: 25%;
+    font-family: forum;
+  }
+  .t-shirt_info h3 {
+    font-size: 2vw;
+    margin-left: 50%;
+    font-family: poiret;
+  }
+
+  .linet {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 20%;
+    position: absolute;
+    left: 60%;
+    top: 140%;
+    z-index: -1;
+  }
+  /************************* Pitch website format*************************/
+  .pitch {
+    width: 30vw;
+    margin-left: 25%;
+    margin-top: 17%;
+  }
+  .beigebox {
+    width: 15vw;
+    height: 40vh;
+    background-color: #8a5a52;
+    opacity: 50%;
+    position: absolute;
+    z-index: -1;
+    right: 3%;
+    top: 183%;
+  }
+  .pitch_info h2 {
+    font-size: 3vw;
+    margin-top: 25%;
+    margin-left: 20%;
+    font-family: forum;
+  }
+  .pitch_info h3 {
+    font-size: 2vw;
+    margin-left: 40%;
+    font-family: poiret;
+  }
+  .linepitch {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 20%;
+    position: absolute;
+    left: 40%;
+    top: 190%;
+  }
+
+  /************************* Spil website format*************************/
+  .spil {
+    width: 30vw;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  .bluebox {
+    width: 15vw;
+    height: 40vh;
+    background-color: #bbe3fc;
+    position: absolute;
+    z-index: -1;
+    left: 3%;
+    top: 236%;
+  }
+  .spil_info h2 {
+    font-size: 3vw;
+    margin-left: 15%;
+    margin-top: 20%;
+    font-family: forum;
+  }
+  .spil_info h3 {
+    font-size: 2vw;
+    margin-left: 30%;
+    font-family: poiret;
+  }
+
+  .linespil {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 20%;
+    position: absolute;
+    left: 57.5%;
+    top: 247%;
+    z-index: -1;
+  }
+  /************************* Pilotsite website format*************************/
+  .pilotsite {
+    width: 30vw;
+    margin-left: 25%;
+    margin-top: 20%;
+  }
+  .turkisbox {
+    width: 15vw;
+    height: 40vh;
+    background-color: #bbfcfc;
+    opacity: 50%;
+    position: absolute;
+    z-index: -1;
+    right: 3%;
+    top: 288%;
+  }
+  .pilotsite_info h2 {
+    font-size: 3vw;
+    margin-top: 20%;
+    margin-left: 10%;
+    font-family: forum;
+  }
+  .pilotsite_info h3 {
+    font-size: 2vw;
+    margin-left: 25%;
+    font-family: poiret;
+  }
+
+  .linepilot {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 20%;
+    position: absolute;
+    left: 41%;
+    top: 300%;
+    z-index: -1;
+  }
+
+  /************************* Redesign website format *************************/
+  .redesign {
+    width: 30vw;
+    margin-left: 5%;
+    margin-top: 16%;
+  }
+  .darkgbox {
+    width: 15vw;
+    height: 40vh;
+    background-color: #8aa18b;
+    opacity: 70%;
+    position: absolute;
+    z-index: -1;
+    left: 3%;
+    top: 339%;
+  }
+  .redesign_info h2 {
+    font-size: 3vw;
+    margin-left: 20%;
+    margin-top: 25%;
+    font-family: forum;
+  }
+  .redesign_info h3 {
+    font-size: 2vw;
+    margin-left: 35%;
+    font-family: poiret;
+  }
+
+  .lineredesign {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 20%;
+    position: absolute;
+    left: 58.5%;
+    top: 352%;
+    z-index: -1;
+  }
+
+  /************************* Portfolio website format *************************/
+  .portfolio {
+    width: 30vw;
+    margin-left: 25%;
+    margin-top: 15%;
+  }
+  .lillabox {
+    width: 15vw;
+    height: 40vh;
+    background-color: #fae0c5;
+    opacity: 80%;
+    position: absolute;
+    z-index: -1;
+    right: 3%;
+    top: 390%;
+    margin-bottom: 5em;
+  }
+  .portfolio_info h2 {
+    font-size: 3vw;
+    margin-top: 30%;
+    margin-left: 35%;
+    font-family: forum;
+  }
+  .portfolio_info h3 {
+    font-size: 2vw;
+    margin-left: 40%;
+    font-family: poiret;
+  }
+
+  .lineportfolio {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 20%;
+    position: absolute;
+    right: 60%;
+    top: 405%;
+    z-index: -1;
+  }
+
+  /***************************************** Projekter *****************************************/
+  /************************* Website projekt *************************/
+  .green_box {
+    background-color: rgba(136, 173, 117, 0.251);
+    padding: 2em 3em 2em 3em;
+    margin: 6em 7em 6em 7em;
+  }
+  .overskrift_web h1 {
+    font-size: 2em;
+    font-family: forum;
+  }
+  .overskrift_web h2 {
+    font-size: 1.5em;
+    font-family: poiret;
+  }
+  .overskrift_web a {
+    font-size: 1.4em;
+    margin-left: 4em;
+  }
+  .green_box p {
+    max-width: 65vw;
+    margin: 2em;
+  }
+  .kasse {
+    width: 75%;
+    margin-left: 4em;
+  }
+  .line_website_p_showroom {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 95%;
+    position: absolute;
+    left: 91%;
+    top: 30%;
+    z-index: -1;
+  }
+  #link_website {
+    font-family: queensides-reg;
+  }
+
+  /************************* Emnesite projekt *************************/
+
+  .yellow_box {
+    background-color: rgba(222, 170, 47, 0.257);
+    padding: 2em 3em 2em 3em;
+    margin: 6em 7em 6em 7em;
+    /* height: 100vh; */
+  }
+  .overskrift_emnesite_p h1 {
+    font-size: 2vw;
+    font-family: forum;
+  }
+  .overskrift_emnesite_p h2 {
+    font-size: 1.5vw;
+    font-family: poiret;
+  }
+  .overskrift_emnesite_p a {
+    font-size: 1.2vw;
+  }
+
+  .yellow_box p {
+    max-width: 65vw;
+    margin: 0.5em;
+  }
+
+  .yellow_box img {
+    width: 100%;
+  }
+  #wireframe_emnesite {
+    width: 100%;
+  }
+
+  #moodboard_emnesite {
+    width: 100%;
+  }
+
+  .tekst_emnesite_p {
+    max-width: 65vw;
+    margin: 3em 3em 3em 8em;
+  }
+
+  #prototype_emnesite_p {
+    width: 70%;
+    padding: 4em;
+  }
+  .line_emnesite_p_showroom {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 95%;
+    position: absolute;
+    left: 51%;
+    top: 20%;
+    z-index: -1;
+  }
+  #link_emnesite {
+    font-family: queensides-reg;
+  }
+  /************************* MomB projekt *************************/
+
+  .pink_box {
+    background-color: rgba(251, 222, 227, 0.657);
+    padding: 2em 3em 0em 3em;
+    margin: 6em 7em 1em 7em;
+    /* height: 100vh; */
+  }
+  .overskrift_ux h1 {
+    font-size: 2vw;
+    font-family: forum;
+  }
+  .overskrift_ux h2 {
+    font-size: 1.5vw;
+    font-family: poiret;
+  }
+  .overskrift_ux a {
+    font-size: 1.2vw;
+  }
+  .pink_box img {
+    width: 100%;
+  }
+  #inspo {
+    width: 110%;
+    margin: 1em 12em 0 1em;
+    padding: 1em;
+  }
+  #moodboard {
+    width: 110%;
+  }
+  #styletile {
+    width: 80%;
+  }
+
+  .tekst {
+    max-width: 60vw;
+    padding: 6em 1em 3em 3em;
+    position: static;
+  }
+
+  #ideudvikling {
+    width: 70%;
+    padding: 2em;
+  }
+  .line_momB_showroom {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 95%;
+    position: absolute;
+    left: 51%;
+    top: 40%;
+    z-index: -1;
+  }
+  #link_momb {
+    font-family: queensides-reg;
+  }
+
+  /************************* Pitch projekt *************************/
+  .brown_box {
+    background-color: #8a5a5289;
+    padding: 2em;
+    margin: 1em 2em 3em 2em;
+  }
+
+  .overskrift_pitch h1 {
+    font-size: 4vw;
+    font-family: forum;
+  }
+  .overskrift_pitch h2 {
+    font-size: 3vw;
+    font-family: poiret;
+  }
+  .overskrift_pitch a {
+    font-size: 2.5vw;
+  }
+  .brown_box p {
+    max-width: 65vw;
+    padding: 1em 3em 2em 3em;
+  }
+  .brown_box img {
+    width: 80%;
+  }
+  .line_pitch_p_showroom {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 95%;
+    position: absolute;
+    left: 95%;
+    top: 23%;
+    z-index: -1;
+  }
+  #link_pitch {
+    font-family: queensides-reg;
+  }
+  #link_pitch a:hover {
+    color: #8aa18b;
+  }
+
+  /************************* Animation projekt *************************/
+  .blue_box1 {
+    background-color: rgba(0, 89, 255, 0.252);
+    padding: 2em 3em 2em 3em;
+    margin: 6em 7em 0 7em;
+  }
+  .blue_box2 {
+    background-color: rgba(0, 89, 255, 0.252);
+    padding: 2em 3em 2em 3em;
+    margin: 0 7em 6em 7em;
+  }
+  #link_animation {
+    font-size: 1.3vw;
+    margin-left: 46em;
+  }
+
+  .overskrift_animation_p h1 {
+    font-size: 2vw;
+    font-family: forum;
+  }
+  .overskrift_animation_p h2 {
+    font-size: 1.5vw;
+    padding-left: 1em;
+    font-family: poiret;
+  }
+
+  .first_kolonne h2 {
+    font-size: 1.2em;
+  }
+
+  .spilelementer {
+    gap: 1em;
+    width: 15%;
+    margin-left: 45%;
+  }
+
+  #moodboard_animation {
+    width: 100%;
+  }
+
+  #papirprototype_animation {
+    width: 110%;
+  }
+
+  .tekst_animation_p {
+    max-width: 60vw;
+    margin: 0 0 3em 7em;
+  }
+  .tekst_animation_p p {
+    max-width: 60vw;
+    margin: 0 2em 3em 0;
+  }
+
+  .line_animation_p_showroom {
+    border-left: 1px solid gray;
+    opacity: 40%;
+    height: 95%;
+    position: absolute;
+    left: 51%;
+    top: 20%;
+    z-index: -1;
+  }
+  #link_animation {
+    font-family: queensides-reg;
+  }
+
+  /************************** Pilotsite projekt **************************/
+  .turkish_box {
+    background-color: rgba(241, 227, 194, 0.772);
+    padding: 2em 3em 2em 3em;
+    margin: 6em 7em 6em 7em;
+    /* height: 100vh; */
+  }
+  .overskrift_animation_p h1 {
+    font-size: 2vw;
+    font-family: forum;
+  }
+  .overskrift_animation_p h2 {
+    font-size: 1.5vw;
+    padding-left: 1em;
+    font-family: poiret;
+  }
+
+  .first_kolonne h2 {
+    font-size: 1.2em;
+  }
+  #link_pilotsite {
+    font-size: 1.3vw;
+  }
+
+  .overskrift_volley_p h1 {
+    font-size: 2vw;
+  }
+  .overskrift_volley_p h2 {
+    font-size: 1vw;
+  }
+  .overskrift_volley_p a {
+    font-size: 0.7vw;
+  }
+
+  #mindmap_pilotsite h3 {
+    font-size: 1.2vw;
+    position: absolute;
+    left: 1%;
+    top: -20%;
+  }
+
+  #mindmap_pilotsite {
+    width: 100%;
+    transform: rotate(360deg);
+    margin: 3em;
+  }
+  .tekst_pilotsite_p {
+    max-width: 60vw;
+    margin: 3em;
+  }
+  #videoredigering_pilotsite {
+    width: 110%;
+  }
+  #videoredigering_pilotsite h3 {
+    font-size: 1.2vw;
+  }
+
+  .line_pilotsite_p_showroom {
+    border-left: 1px solid gray;
+    opacity: 100%;
+    height: 95%;
+    position: absolute;
+    left: 51%;
+    top: 35%;
+    z-index: -1;
+  }
+  #link_pilotsite {
+    font-family: queensides-reg;
+  }
+  /************************** Redesign projekt **************************/
+  .dgreen_box {
+    background-color: #8aa18bd5;
+
+    padding: 2em 3em 2em 3em;
+    margin: 6em 7em 6em 7em;
+    /* height: 100vh; */
+  }
+  .overskrift_redesign_p h1 {
+    font-size: 2vw;
+    font-family: forum;
+  }
+  .overskrift_redesign_p h2 {
+    font-size: 1.5vw;
+    font-family: poiret;
+  }
+  .overskrift_redesign_p a {
+    font-size: 1.2vw;
+  }
+
+  #moodboard1_redesign {
+    width: 100%;
+    margin-top: 4em;
+  }
+
+  #moodboard2_redesign {
+    width: 100%;
+    margin-top: 2em;
+  }
+
+  .tekst_redesign_p {
+    max-width: 60vw;
+    margin: 5em 3em 0 3em;
+  }
+
+  #bert_redesign_p {
+    width: 110%;
+    padding: 4em 5em 0 0;
+  }
+  .line_redesign_p_showroom {
+    border-left: 1px solid gray;
+    height: 95%;
+    position: absolute;
+    left: 51%;
+    top: 35%;
+  }
+  #link_redesign {
+    font-family: queensides-reg;
+  }
+
+  #video_container {
+    display: flex;
+    justify-items: center;
+    width: 80%;
+    aspect-ratio: 16/9;
+    line-height: 0;
+    position: relative;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 125px;
+    margin-top: 25px;
+  }
+  #video_file {
+    max-width: 100%;
+  }
+  #play {
+    position: absolute;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10%;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    padding: 3px;
+  }
+  #play {
+    background-image: url("img/play_black.svg");
+    top: 100%;
+    left: 65%;
+  }
+
+  /************************** Portfolio projekt **************************/
+  .purple_box {
+    background-color: #fae0c5b5;
+
+    padding: 2em 3em 2em 3em;
+    margin: 6em 7em 6em 7em;
+    /* height: 100vh; */
+  }
+  .overskrift_portfolio_p {
+    font-family: forum;
+  }
+  #moodboard_portfolio {
+    width: 110%;
+  }
+  #styletile_portfolio {
+    width: 110%;
+  }
+  .tekst_portfolio_p {
+    max-width: 60vw;
+    margin: 3em;
+  }
+
+  #mockup_portfolio_p {
+    width: 70%;
+    padding: 4em;
+  }
+  .line_portfolio_p_showroom {
+    border-left: 1px solid gray;
+    opacity: 100%;
+    height: 95%;
+    position: absolute;
+    left: 51%;
+    top: 35%;
+    z-index: -1;
+  }
+
+  .cv {
+    background-image: url(CV_ommig.svg);
+    background-size: cover;
+    aspect-ratio: 1920/1080;
+  }
+}
